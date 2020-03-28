@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 50.332 s <<< FAILURE! - in TestSuite
+feature(Testrunner.Testrunnerlogin)  Time elapsed: 49.451 s  <<< FAILURE!
+cucumber.runtime.CucumberException: java.lang.AssertionError: expected [CRMPRO - CRM software for customer relationship management, sales, and support.] but found [CRMPRO]
+	at Testrunner.Testrunnerlogin.feature(Testrunnerlogin.java:35)
+Caused by: java.lang.AssertionError: expected [CRMPRO - CRM software for customer relationship management, sales, and support.] but found [CRMPRO]
+
